@@ -1,7 +1,8 @@
 #pragma once
 #include <SFML/Graphics.hpp>
+#include <functional>
 using namespace sf;
-
+using namespace std;
 // represents a button on the bottom of the window
 struct Button {
 	RectangleShape button;
