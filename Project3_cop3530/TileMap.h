@@ -368,6 +368,7 @@ struct TileMap {
 
 	// calculates the path of dijkstras solution
 	void calcDPath(RenderWindow& window) {
+		//sleep(milliseconds(1));
 
 		//vector<pair<int, int>> path;
 		if (dParent[destination.first][destination.second] == make_pair(-1, -1)) {
@@ -403,6 +404,7 @@ struct TileMap {
 			window.draw(gatorImg);
 			window.display();
 			total += grid[p.first][p.second].danger;
+
 		}
 
 		unsigned int countVisitedD = 0;
@@ -536,6 +538,7 @@ struct TileMap {
 	}
 
 	void calcAPath(RenderWindow& window) {
+		//sleep(milliseconds(1));
 
 		//vector<pair<int, int>> path;
 		if (aParent[destination.first][destination.second] == make_pair(-1, -1)) {
@@ -561,10 +564,8 @@ struct TileMap {
 		// reverse order so path is traversed
 		reverse(aPath.begin(), aPath.end());
 
-		sf::sleep(milliseconds(1));
 		for (auto& p : aPath) {
 			count++;
-
 			//grid[p.first][p.second].box.setOutlineColor(Color(212, 0, 219));
 			grid[p.first][p.second].box.setOutlineColor(Color(211, 39, 55));
 			grid[p.first][p.second].box.setOutlineThickness(-3.0f);
@@ -572,9 +573,9 @@ struct TileMap {
 			gatorImg.setPosition(p.second * 32.0f, p.first * 32.0f);
 			window.draw(grid[p.first][p.second].box);
 			window.draw(gatorImg);
-
 			window.display();
 			total += grid[p.first][p.second].danger;
+
 		}
 
 		for (auto& row : grid) {

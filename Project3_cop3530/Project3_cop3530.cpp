@@ -175,10 +175,10 @@ int main() {
 	resetBtn.setText(resetText, font, fontSize, gatorBlue, bold, resetTextX, resetTextY);
 
 	// limit frame rate and enable vertical sync
-	window.setVerticalSyncEnabled(true);
+	//window.setVerticalSyncEnabled(true);
 
 	// set the frame rate limit
-	//window.setFramerateLimit(120);
+	//window.setFramerateLimit(60);
 
 	// basic state of board
 	int randX;
@@ -205,12 +205,12 @@ int main() {
 
 			switch (event.type) {
 
-				// close window
+			// close window
 			case Event::Closed:
 				window.close();
 				break;
 
-				// mouse pressed
+			// mouse pressed
 			case Event::MouseButtonPressed:
 
 				// left press
