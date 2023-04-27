@@ -5,6 +5,9 @@ This project is a path finding visualizer that shows the differences in approach
 
 The premise is that Gabby the gator is hungry and wants to catch fish, but if she doesn't stay in the deep water, they will see her coming.
 
+![gator](https://user-images.githubusercontent.com/109101463/235012862-6f90875f-9c09-4ea4-a07f-48394df213c0.png)	![fish](https://user-images.githubusercontent.com/109101463/235012881-75af20df-a5a7-442c-bca9-a41b3bd35714.png)
+
+
 Gabby has devised two algorithms (Dijkstras and A-star) to help her find the optimal route to the fish. 
 Here the optimal route is not necessarily the shortest distance.
 Instead each tile on the grid has a depth associated with it, or a danger level (risk of being seen by the fish) and is colored to match. The optimal path is one that 
