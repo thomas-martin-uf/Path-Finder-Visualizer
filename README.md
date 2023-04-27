@@ -13,8 +13,6 @@ prioritizes taking the darkest tiles while still reaching the goal.
 This program allows the user to randomly generate endless tilemaps with unique source and destination tiles as well as various danger levels. 
 Users can add hazards and see how it changes the path finding by blocking routes or creating ellaborate paths.
 
-![image](https://user-images.githubusercontent.com/109101463/234973252-1c28ae3f-53dc-4e8d-99b3-d94d97f16c2f.png)
-
 
 ## Dependencies
 This program relies on the SFML 2.5 library. 32 or 64 bit should work fine, but you'll need to configure visual studio to use the static or dynamic libraries
@@ -24,3 +22,10 @@ We compiled to C++14, but it shouldn't matter.
 SFML Setup Info
 - [SFML DOWNLOAD](https://www.sfml-dev.org/download.php)
 - [SFML SETUP TUTORIAL](https://www.sfml-dev.org/tutorials/2.5/start-vc.php)
+
+## Screenshots
+![image](https://user-images.githubusercontent.com/109101463/234973252-1c28ae3f-53dc-4e8d-99b3-d94d97f16c2f.png)
+![image](https://user-images.githubusercontent.com/109101463/234973742-5532f3c7-eb3d-41ad-a69e-1098b9de7641.png)
+
+
+
