@@ -19,9 +19,21 @@ This program relies on the SFML 2.5 library. 32 or 64 bit should work fine, but 
 and adjust any paths required for SFML. More information can be found at the SFML site. Once that is installed properly you should have no trouble running the code.
 We compiled to C++14, but it shouldn't matter.
 
+## Notes
+If you notice any weirdness with choppy movement on the pathfinding, it could be due to the graphics card or framerate issue. The following lines can be adjusted to fit your needs and will result in different smoothness depending on individual monitor, refresh rate, and gpu/cpu load.
+	
+```
+// limit frame rate and enable vertical sync(tries to match framerate to refreshrate of monitor)
+// window.setVerticalSyncEnabled(true);
+
+// set the frame rate limit
+// window.setFramerateLimit(60);
+ ```
+
 SFML Setup Info
 - [SFML DOWNLOAD](https://www.sfml-dev.org/download.php)
 - [SFML SETUP TUTORIAL](https://www.sfml-dev.org/tutorials/2.5/start-vc.php)
+- [SFML FRAMERATE ISSUE](https://www.sfml-dev.org/tutorials/2.5/window-window.php)
 
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/109101463/234973252-1c28ae3f-53dc-4e8d-99b3-d94d97f16c2f.png)
