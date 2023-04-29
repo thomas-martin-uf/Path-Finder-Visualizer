@@ -19,7 +19,7 @@ Users can add hazards and see how it changes the path finding by blocking routes
 
 ## Dependencies
 This program relies on the SFML 2.5 library. 32 or 64 bit should work fine, but you'll need to configure visual studio to use the static or dynamic libraries
-and adjust any paths required for SFML. More information can be found at the SFML site. Once that is installed properly you should have no trouble running the code.
+and adjust any paths required for SFML. More information can be found at the SFML site or using the links below. Once that is installed properly you should have no trouble running the code.
 We compiled to C++14, but it shouldn't matter.
 
 ## SFML Setup Info
@@ -29,7 +29,7 @@ We compiled to C++14, but it shouldn't matter.
 - [SFML VISUAL STUDIO SETUP VIDEO](https://www.youtube.com/watch?v=_VgRjlvGpPk)
 
 ## Application Size
-The application is harded to be 1344x868. The tile grid section
+The application is hard coded to be 1344x868. The tile grid section
 
 ## Framerate
 If you notice any weirdness with choppy movement on the pathfinding, it could be due to the graphics card or framerate issue. The following lines can be adjusted to fit your needs and will result in different smoothness depending on individual monitor, refresh rate, and gpu/cpu load.
