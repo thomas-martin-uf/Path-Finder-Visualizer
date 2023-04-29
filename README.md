@@ -29,7 +29,7 @@ We compiled to C++14, but it shouldn't matter.
 - [SFML VISUAL STUDIO SETUP VIDEO](https://www.youtube.com/watch?v=_VgRjlvGpPk)
 
 ## Application Size
-The application is hard coded to be 1344x868. The tile grid section
+The application is hard coded to be 1344 x 868. The tile grid section it 1344 x 768
 
 ## Framerate
 If you notice any weirdness with choppy movement on the pathfinding, it could be due to the graphics card or framerate issue. The following lines can be adjusted to fit your needs and will result in different smoothness depending on individual monitor, refresh rate, and gpu/cpu load.
