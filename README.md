@@ -42,6 +42,9 @@ If you notice any weirdness with choppy movement on the pathfinding, it could be
 // window.setFramerateLimit(60);
  ```
 
+## Screencast
+[Project Video Walkthrough](https://youtu.be/DAgrOO41-c0)
+
 ## Screenshots
 ![image](https://user-images.githubusercontent.com/109101463/234973252-1c28ae3f-53dc-4e8d-99b3-d94d97f16c2f.png)
 ![image](https://user-images.githubusercontent.com/109101463/234973742-5532f3c7-eb3d-41ad-a69e-1098b9de7641.png)
