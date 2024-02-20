@@ -1,4 +1,4 @@
-# Project3_cop3530
+# Path Finding Visualizer
 
 ## About
 This project is a path finding visualizer that shows the differences in approaches and efficiencies between Dijkstra's algorithm and A-Star. 
